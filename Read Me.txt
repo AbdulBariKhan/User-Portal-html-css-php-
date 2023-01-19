@@ -1,0 +1,30 @@
+Index.html , Home.html & Style.css are the HTML and CSS for a basic user portal for a website could be implemented. The index.html file contains the HTML for the login page, which includes a form for the user to enter their username and password. The home.html file contains the HTML for the home page, which is displayed after the user logs in. The styles.css file contains the CSS styles for the pages.
+
+user.php is an example of how the PHP code for a basic user portal for a website could be implemented. The first script contains the login page, it starts the session using session_start(), the $users array stores a list of registered users, where each user has a username, password, and name. It checks whether the user is already logged in, if yes it redirects to the home page. If the request method is POST, it takes the input from the user and check whether the entered username and password exist in the $users array and match, if yes it sets the session and redirect to the home page otherwise redirect to the login page.
+The second script contains the home page, it starts the session using session_start() and checks whether the user is logged in, if not it redirects to the login page. It gets the username and name of the logged-in user from the session variables and displays it. It also has a logout link which when clicked redirects to the logout page.
+Please note that this is a basic example and you can customize the design and layout of the portal as per your requirement.
+
+
+I can provide you with the steps and instructions on how to create a user portal and you can use that information to create a video tutorial.
+
+Choose the web development stack you want to use (PHP, Python, JavaScript, etc.).
+
+Set up a basic web application using a framework such as Flask (Python), Express (JavaScript), or Laravel (PHP).
+
+Create a database or hard-coded array of registered users with usernames, passwords, and names.
+
+Implement a login system that allows users to enter their credentials and compares them to the registered users.
+
+Implement a session system that keeps track of the currently logged-in user.
+
+Create a home page that displays the name of the logged-in user and a logout button.
+
+Create a logout system that clears the session and redirects the user to the login page.
+
+Create the templates and styles for your pages using HTML, CSS, and JavaScript.
+
+Test your application and make sure it works correctly.
+
+You can use the above steps to create a video tutorial where you can explain the process of creating a user portal step by step.
+
+Please note that the above steps are general steps, the implementation may vary based on the web development stack you choose.
